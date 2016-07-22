@@ -1,0 +1,13 @@
+#topbar {
+  display: flex;
+  #topmenu ul {
+    display: block;
+  }
+}
+
+#topmenu li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
