@@ -1,8 +1,29 @@
+@font-face {
+  font-family: aliens;
+  src: url('fonts/aliens.ttf');
+}
+
+@font-face {
+  font-family: mars;
+  src: url('fonts/mars.otf');
+}
+
+@font-face {
+  font-family: gond;
+  src: url('fonts/gond.ttf');
+}
+
 h1 {
-  
+  font-family: mars;
+  font-size: 100px!important;
 }
 
 h3, h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+h3 {
+  font-family: aliens;
+  font-size: 30px;
 }

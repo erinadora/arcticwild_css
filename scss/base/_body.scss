@@ -8,17 +8,73 @@ html, body {
 .landing {
   color: #fff;
   height: 100vh;
-  background-image: url('images/snow3.jpg');
+  margin: 0 auto;
+  background-image: url('images/alaska2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  background-attachment: scroll;
+  background-attachment: fixed;
+  @media screen and (max-width: 740px) {
+    background-image: url('images/snow5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+  }
 }
 
 a {
   text-decoration: none;
+  color: inherit!important;
 }
 
 a:hover {
   cursor: pointer;
+}
+
+#emb {
+  font-family: aliens;
+  font-size: 55px;
+  text-align: center;
+  width: 100%;
+  color: #000;
+  background-color: rgba(225, 225, 225, 0.4);
+  margin: auto!important;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 150px;
+  margin-bottom: 0px!important;
+  letter-spacing: 1px;
+  bottom: 0!important;
+  position: fixed;
+  box-shadow: 0px 15px 19px 45px rgba(225, 225, 225, 0.4);
+  @media screen and (max-width: 740px) {
+    padding: 0px;
+    font-size: 30px;
+    width: 100%;
+    margin: 15px auto!important;
+    &:hover {
+      opacity: 0.5;
+      font-size: 31px!important;
+      -webkit-transition: all 2s ease;
+      transition: all 2s ease;
+      cursor: pointer;
+    }
+  }
+  &:hover {
+    font-size: 57px;
+    -webkit-transition: all 2s ease;
+    transition: all 2s ease;
+    cursor: pointer;
+  }
+}
+
+#space {
+  height: 130px;
+  background-color: rgba(225, 225, 225, 0.5)!important;
+  box-shadow: 0px 10px 39px 45px rgba(225, 225, 225, 0.5);
+}
+
+.footer {
+  height: 150px;
 }
